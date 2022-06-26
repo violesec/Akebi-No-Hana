@@ -21,7 +21,7 @@ namespace cheat::feature
 
 	InteractiveMap::InteractiveMap() : Feature(),
 		NFEX(f_Enabled, "Interactive map", "m_InteractiveMap", "InteractiveMap", false, false),
-		NF(f_SeparatedWindows, "Separated windows", "InteractiveMap", true),
+		NF(f_SeparatedWindows, "Separated windows", "InteractiveMap", false),
 		NF(f_CompletionLogShow, "Completion log show", "InteractiveMap", false),
 
 		NFS(f_STFixedPoints, "Fixed points", "InteractiveMap", SaveAttachType::Global),

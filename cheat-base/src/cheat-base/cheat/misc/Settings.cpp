@@ -12,22 +12,22 @@ namespace cheat::feature
 		NF(f_HotkeysEnabled, "Hotkeys Enabled", "General", true),
 		NF(f_FontSize, "Font size", "General", 16.0f),
 
-		NF(f_StatusMove, "Move Status Window", "General::StatusWindow", true),
-		NF(f_StatusShow, "Show Status Window", "General::StatusWindow", true),
+		NF(f_StatusMove, "Move Status Window", "General::StatusWindow", false),
+		NF(f_StatusShow, "Show Status Window", "General::StatusWindow", false),
 		
-		NF(f_InfoMove,   "Move Info Window", "General::InfoWindow", true),
-		NF(f_InfoShow,   "Show Info Window", "General::InfoWindow", true),
+		NF(f_InfoMove,   "Move Info Window", "General::InfoWindow", false),
+		NF(f_InfoShow,   "Show Info Window", "General::InfoWindow", false),
 		
 		NF(f_FpsMove, "Move FPS Indicator", "General::FPS", false),
-		NF(f_FpsShow, "Show FPS Indicator", "General::FPS", true),
+		NF(f_FpsShow, "Show FPS Indicator", "General::FPS", false),
 
 		NF(f_NotificationsShow, "Show Notifications", "General::Notify", true), 
 		NF(f_NotificationsDelay, "Notifications Delay", "General::Notify", 500),
   
-		NF(f_FileLogging,    "File Logging",    "General::Logging", false),
-		NF(f_ConsoleLogging, "Console Logging", "General::Logging", true),
+		NF(f_FileLogging,    "File Logging",    "General::Logging", true),
+		NF(f_ConsoleLogging, "Console Logging", "General::Logging", false),
 
-		NF(f_FastExitEnable, "Fast Exit", "General::FastExit", false),
+		NF(f_FastExitEnable, "Fast Exit", "General::FastExit", true),
 		NF(f_HotkeyExit, "Hotkeys", "General::FastExit", Hotkey(VK_F12))
 		
     {
