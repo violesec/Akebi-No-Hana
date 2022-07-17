@@ -206,6 +206,7 @@
     <None Include="res\map_enkanomiya.json" />
     <None Include="res\map_teyvat.json" />
     <None Include="res\map_undeground_mines.json" />
+    <None Include="res\map_golden_apple_archipelago.json" />
     <None Include="res\signatures.json" />
   </ItemGroup>
   <ItemGroup>
@@ -278,6 +279,7 @@
     <Image Include="res\iconsHD\Dendrobium.png" />
     <Image Include="res\iconsHD\DivdaRay.png" />
     <Image Include="res\iconsHD\Domain.png" />
+    <Image Include="res\iconsHD\EchoingConch.png" />
     <Image Include="res\iconsHD\EightStoneTablets.png" />
     <Image Include="res\iconsHD\ElectricConduction.png" />
     <Image Include="res\iconsHD\ElectroCrystal.png" />
@@ -333,6 +335,7 @@
     <Image Include="res\iconsHD\Horsetail.png" />
     <Image Include="res\iconsHD\HydroHypostasis.png" />
     <Image Include="res\iconsHD\Illusion.png" />
+    <Image Include="res\iconsHD\ImagingConch.png" />
     <Image Include="res\iconsHD\InazumaShrineofDepths.png" />
     <Image Include="res\iconsHD\IronChunk.png" />
     <Image Include="res\iconsHD\JadeChamber.png" />
@@ -561,6 +564,7 @@
     <Image Include="res\icons\Dendrobium.png" />
     <Image Include="res\icons\DivdaRay.png" />
     <Image Include="res\icons\Domain.png" />
+    <Image Include="res\icons\EchoingConch.png" />
     <Image Include="res\icons\EightStoneTablets.png" />
     <Image Include="res\icons\ElectricConduction.png" />
     <Image Include="res\icons\ElectroCrystal.png" />
@@ -616,6 +620,7 @@
     <Image Include="res\icons\Horsetail.png" />
     <Image Include="res\icons\HydroHypostasis.png" />
     <Image Include="res\icons\Illusion.png" />
+    <Image Include="res\icons\ImagingConch.png" />
     <Image Include="res\icons\InazumaShrineofDepths.png" />
     <Image Include="res\icons\IronChunk.png" />
     <Image Include="res\icons\JadeChamber.png" />
@@ -858,7 +863,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch-il2cpp.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)src/appdata;$(ProjectDir)src/framework;$(ProjectDir)res/;$(ProjectDir)vendor/protobuf/src/;$(ProjectDir)src/user;$(SolutionDir)cheat-base/src/;$(SolutionDir)cheat-base/vendor/imgui/;$(SolutionDir)cheat-base/vendor/json/single_include/;$(SolutionDir)cheat-base/vendor/magic_enum/include/;$(SolutionDir)cheat-base/vendor/fmt/include/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/simpleIni/;$(SolutionDir)cheat-base/vendor/detours/</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)src/appdata;$(ProjectDir)src/framework;$(ProjectDir)res/;$(ProjectDir)src/user;$(SolutionDir)cheat-base/src/;$(SolutionDir)cheat-base/vendor/imgui/;$(SolutionDir)cheat-base/vendor/json/single_include/;$(SolutionDir)cheat-base/vendor/magic_enum/include/;$(SolutionDir)cheat-base/vendor/fmt/include/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/simpleIni/;$(SolutionDir)cheat-base/vendor/detours/</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <Optimization>Disabled</Optimization>
@@ -896,7 +901,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch-il2cpp.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)src/appdata;$(ProjectDir)src/framework;$(ProjectDir)res/;$(ProjectDir)vendor/protobuf/src/;$(ProjectDir)src/user;$(SolutionDir)cheat-base/src/;$(SolutionDir)cheat-base/vendor/imgui/;$(SolutionDir)cheat-base/vendor/json/single_include/;$(SolutionDir)cheat-base/vendor/magic_enum/include/;$(SolutionDir)cheat-base/vendor/fmt/include/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/simpleIni/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/detours/</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)src/appdata;$(ProjectDir)src/framework;$(ProjectDir)res/;$(ProjectDir)src/user;$(SolutionDir)cheat-base/src/;$(SolutionDir)cheat-base/vendor/imgui/;$(SolutionDir)cheat-base/vendor/json/single_include/;$(SolutionDir)cheat-base/vendor/magic_enum/include/;$(SolutionDir)cheat-base/vendor/fmt/include/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/simpleIni/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/detours/</AdditionalIncludeDirectories>
       <Optimization>MaxSpeed</Optimization>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
@@ -933,7 +938,7 @@ powershell -nop -c "&amp; {sleep 15}"</Command>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch-il2cpp.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)src/appdata;$(ProjectDir)src/framework;$(ProjectDir)res/;$(ProjectDir)vendor/protobuf/src/;$(ProjectDir)src/user;$(SolutionDir)cheat-base/src/;$(SolutionDir)cheat-base/vendor/imgui/;$(SolutionDir)cheat-base/vendor/json/single_include/;$(SolutionDir)cheat-base/vendor/magic_enum/include/;$(SolutionDir)cheat-base/vendor/fmt/include/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/simpleIni/;$(SolutionDir)cheat-base/vendor/detours/</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)src/appdata;$(ProjectDir)src/framework;$(ProjectDir)res/;$(ProjectDir)src/user;$(SolutionDir)cheat-base/src/;$(SolutionDir)cheat-base/vendor/imgui/;$(SolutionDir)cheat-base/vendor/json/single_include/;$(SolutionDir)cheat-base/vendor/magic_enum/include/;$(SolutionDir)cheat-base/vendor/fmt/include/;$(SolutionDir)cheat-base/vendor/imgui-notify-v2/;$(SolutionDir)cheat-base/vendor/simpleIni/;$(SolutionDir)cheat-base/vendor/detours/</AdditionalIncludeDirectories>
       <Optimization>MaxSpeed</Optimization>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <DebugInformationFormat>None</DebugInformationFormat>
